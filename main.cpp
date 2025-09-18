@@ -111,7 +111,7 @@ int wmain(int argc, wchar_t* argv[]) {
     header.signature = 'FSAE';
     header.decryptedSize = _byteswap_ulong(dataSize);
     memcpy(header.keyid, "datax   ", 8);
-    memcpy(header.digest, sha256(data.data(), 32).data(), 32);
+    memcpy(header.digest, sha256(data.data(), std::min(data.size(), 32u)).data(), SHA256_DIGEST_LENGTH);
     fwrite(&header, 1, sizeof(EASF_header), fo);
 #endif
     fwrite(result.data(), 1, result.size(), fo);
