@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36422.26
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EASF", "easf.vcxproj", "{9CCE97DF-5F13-4FA0-91A4-C500354BDE76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Decryptor|x86 = Decryptor|x86
+		Encryptor|x86 = Encryptor|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CCE97DF-5F13-4FA0-91A4-C500354BDE76}.Decryptor|x86.ActiveCfg = Decryptor|Win32
+		{9CCE97DF-5F13-4FA0-91A4-C500354BDE76}.Decryptor|x86.Build.0 = Decryptor|Win32
+		{9CCE97DF-5F13-4FA0-91A4-C500354BDE76}.Encryptor|x86.ActiveCfg = Encryptor|Win32
+		{9CCE97DF-5F13-4FA0-91A4-C500354BDE76}.Encryptor|x86.Build.0 = Encryptor|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9A8AE87-D1C8-404F-8DB3-DAE48127BED1}
+	EndGlobalSection
+EndGlobal
