@@ -3,7 +3,7 @@
 This tool can perform files encryption and decryption with EA's EASF encryption method.
 
 ## Usage
-> <operation> <game> <input_file_path> <output_file_path>
+> [operation] [game] [input_file_path] [output_file_path]
 
 ### Encryption
 > easf_enc fifa16 "product.ini" "product.ini"
